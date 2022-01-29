@@ -1,7 +1,7 @@
 import cv2 # OpenCV Library
 
 # Image to detect shapes on below
-image = cv2.imread("C:\\Users\\denis\\Desktop\\img\\shape.jpg")
+image = cv2.imread("INSERT PATH TO IMAGE FILE HERE")
 
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) # Converting to gray image
 
